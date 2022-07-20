@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/shoppingCart.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="image">
+                <!-- <img src="./assets/img/cart.png" alt=""> -->
+                <div class="cart_img">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+            <h1 class="content__name">Giỏ Hàng</h1>
+            <table>
+                <thead class="c-0">
+                    <tr>
+                        <th style="width:50%" class="title">Tên sản phẩm</th>
+                        <th style="width:15%" class="title">Giá</th>
+                        <th style="width:5%" class="title">Số lượng</th>
+                        <th style="width:15%" class="title">Thành tiền</th>
+                        <th style="width:15%" class="title">Tác vụ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="product">
+                                <img src="./assets/img/nike/0.jpg" class="product-item__img">
+                                <h4 class="product-item__name">Nike_01</h4>
+                            </div>
+                        </td>
+                        <td class="c-0">2.990.000</td>
+                        <td class="c-0"><input class="amount" value="1" type="number" min="0"></td>
+                        <td class="title c-0">2.990.000</td>
+                        <td class="m-0 l-0">
+                            <div class="mobile">
+                                <p><input class="amount" value="1" type="number" min="0"></p>
+                                <p class="title">2.990.000</p>
+                            </div>
+                        </td>
+                        <td class="actions">
+                            <button class="btn-table"><i class="fa fa-edit"></i></button>
+                            <button class="btn-table"><i class="fa-solid fa-trash-can"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="product">
+                                <img src="./assets/img/nike/6.jpg" class="product-item__img" width="100">
+                                <h4 class="product-item__name">Nike_02</h4>
+                            </div>
+                        </td>
+                        <td class="c-0">2.990.000</td>
+                        <td class="c-0"><input class="amount" value="2" type="number" min="0"></td>
+                        <td class="title c-0">5.980.000</td>
+                        <td class="m-0 l-0">
+                            <div class="mobile">
+                                <p><input class="amount" value="2" type="number" min="0"></p>
+                                <p class="title">5.980.000</p>
+                            </div>
+                        </td>
+                        <td class="actions">
+                            <button class="btn-table"><i class="fa fa-edit"></i></button>
+                            <button class="btn-table"><i class="fa-solid fa-trash-can"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="foot">
+                <div class="left">
+                    <button class="btn"><a href="./index.html">Tiếp tục mua hàng</a></button>
+                </div>
+                <div class="right">
+                    <div class="total">Total: 8.970.000 VNĐ</div>
+                    <button class="btn"><a href="./bill.html">Thanh toán</a> <i class="fa-solid fa-angles-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

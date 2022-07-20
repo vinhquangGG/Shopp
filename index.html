@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header grid">
+            <nav class="header__navbar grid wide">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item c-0">
+                        <a href="./index.html" class="navbar-list__trangchu-item">Trang chủ</a>
+                    </li>
+                    <li class="header__navbar-item c-0">Kết nối
+                        <a href="https://www.facebook.com/profile.php?id=100026940495915"
+                            class="navbar-list__ketnoi-item"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/viet.83/" class="navbar-list__ketnoi-item"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <div class="menu">
+                        <i class="fa-solid fa-list"></i>
+                        <ul class="menu__list">
+                            <li class="menu__list-item"><a href="./contact.html">Liên hệ</a></li>
+                            <li class="menu__list-item"><a href="./signUp.html">Đăng Nhập</a></li>
+                        </ul>
+                    </div>
+                </ul>
+                <div class="header-with-search ">
+                    <form class="header__search">
+                        <input type="text" name="txt" class="header__search-input"
+                            placeholder="Nhập để tìm kiếm sản phẩm">
+                        <button type="submit" class="header__search-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                    <div class="header__cart">
+                        <a href="./shoppingCart.html" class="header__cart-link">
+                            <i class="fa-solid fa-cart-shopping header__cart-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item c-0">
+                        <a href="./contact.html" class="header__navbar-link">
+                            <i class="fa-solid fa-circle-question"></i>
+                            Liên hệ</a>
+                    </li>
+                    <li class="header__navbar-item c-0">
+                        <a href="./signUp.html" class="dnhap">Đăng nhập</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="slider grid">
+            <div class="slider__container">
+                <img src="./assets/img/slide3.jpg" alt="">
+                <img src="./assets/img/slide2.jpg" alt="">
+                <img src="./assets/img/slide1.jpg" alt="">
+                <img src="./assets/img/slide4.jpg" alt="">
+            </div>
+            <div class="slider__banner">
+                <div class="banner-item">
+                    <div class="item-icon"><i class="fa-solid fa-credit-card"></i></div>
+                    <h3 class="item-name">Cam kết chính hãng</h3>
+                    <h6 class="item-slogan">100% Authentic</h6>
+                    <p class="item-text">Cam kết sản phẩm chính hãng từ Châu Âu, Châu Mỹ...</p>
+                </div>
+                <div class="banner-item">
+                    <div class="item-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                    <h3 class="item-name">HỖ TRỢ 24/24</h3>
+                    <h6 class="item-slogan">Supporting 24/24</h6>
+                    <p class="item-text">Gọi ngay</p>
+                </div>
+                <div class="banner-item">
+                    <div class="item-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                    <h3 class="item-name">GIAO HÀNG HỎA TỐC</h3>
+                    <h6 class="item-slogan">Express delivery</h6>
+                    <p class="item-text">SHIP hỏa tốc 1h nhận hàng trong nội thành Hà Nội</p>
+                </div>
+            </div>
+        </div>
+        <div class="content grid wide">
+            <div class="intro_new_product">
+                <div class="product-heading">
+                    <h1 class="app-title">Sản phẩm sắp ra mắt</h1>
+                </div>
+                <div class="intro_new_product-item m-12 l-12 c-12">
+                    <video width="100%" height="100%" autoplay muted loop>
+                        <source src="./assets/video/Nike Air Max 270 - Animation.mp4">
+                    </video>
+                </div>
+                <div class="intro_new_product-content">
+                    <p class="content-text">'Gen Zion'</p>
+                    <h1 class="content-title">Nike Air 270</h1>
+                    <p class="content-text">Nike Air 270 'Gen Zion' channels his bold energy through vibrant colors
+                        reminiscent of the warm season.</p>
+                    <a href="./product.html" class="content__btn">Shop</a>
+                </div>
+            </div>
+            <div class="style grid">
+                <div class="product-heading">
+                    <h1 class="app-title">Cộng đồng VieShop</h1>
+                </div>
+                <div class="style-content">
+                    <div class="style__left m-6 l-6 c-12">
+                        <img src="./assets/img/style0.jpg" class="img-left">
+                    </div>
+                    <div class="style__right m-6 l-6 c-12">
+                        <div class="style-text m-12 l-12 c-12">
+                            <h1 class="style-title">Hãy cho chúng tôi thấy phong cách của bạn</h1>
+                            <p class="content-text">Gắn thẻ @VieShop cùng với ảnh của bạn trên Instagram</p>
+                        </div>
+                        <div class="style__right-img m-12 l-12 c-12">
+                            <img src="./assets/img/style2.jpg" class="img-right m-6 l-6 c-6">
+                            <img src="./assets/img/style1.jpg" class="img-right m-6 l-6 c-6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="best_seller grid">
+                <div class="product-heading">
+                    <h1 class="app-title">Sản phẩm bán chạy</h1>
+                </div>
+                <div class="best_seller-product">
+                    <a href="./ctsp.html" class="l-3 m-3 c-4">
+                        <div class="best_seller-item">
+                            <img src="./assets/img/nike/0.jpg" >
+                            <h2 class="best_seller-item-name">Nike 01</h2>
+                            <p class="best_seller-item-price">2,990,000 VNĐ</p>
+                        </div>
+                    </a>
+                    <a href="./ctsp.html" class="l-3 m-3 c-4">
+                        <div class="best_seller-item">
+                            <img src="./assets/img/nike/1.jpg" >
+                            <h2 class="best_seller-item-name">Nike 01</h2>
+                            <p class="best_seller-item-price">2,990,000 VNĐ</p>
+                        </div>
+                    </a>
+                    <a href="./ctsp.html" class="l-3 m-3 c-4">
+                        <div class="best_seller-item">
+                            <img src="./assets/img/nike/2.jpg" >
+                            <h2 class="best_seller-item-name">Nike 01</h2>
+                            <p class="best_seller-item-price">2,990,000 VNĐ</p>
+                        </div>
+                    </a>
+                    <a href="./ctsp.html" class="l-3 m-3 c-4">
+                        <div class="best_seller-item">
+                            <img src="./assets/img/nike/3.jpg" >
+                            <h2 class="best_seller-item-name">Nike 01</h2>
+                            <p class="best_seller-item-price">2,990,000 VNĐ</p>
+                        </div>
+                    </a>
+                    <!-- <a href="./ctsp.html" class="l-3 m-3 c-4">
+                        <div class="best_seller-item">
+                            <img src="./assets/img/nike/4.jpg" >
+                            <h2 class="best_seller-item-name">Nike 01</h2>
+                            <p class="best_seller-item-price">2,990,000 VNĐ</p>
+                        </div>
+                    </a>
+                    <a href="./ctsp.html" class="l-3 m-3 c-4">
+                        <div class="best_seller-item">
+                            <img src="./assets/img/nike/5.jpg" >
+                            <h2 class="best_seller-item-name">Nike 01</h2>
+                            <p class="best_seller-item-price">2,990,000 VNĐ</p>
+                        </div>
+                    </a>
+                    <a href="./ctsp.html" class="l-3 m-3 c-4">
+                        <div class="best_seller-item">
+                            <img src="./assets/img/nike/6.jpg" >
+                            <h2 class="best_seller-item-name">Nike 01</h2>
+                            <p class="best_seller-item-price">2,990,000 VNĐ</p>
+                        </div>
+                    </a>
+                    <a href="./ctsp.html" class="l-3 m-3 c-4">
+                        <div class="best_seller-item">
+                            <img src="./assets/img/nike/7.jpg" >
+                            <h2 class="best_seller-item-name">Nike 01</h2>
+                            <p class="best_seller-item-price">2,990,000 VNĐ</p>
+                        </div>
+                    </a>
+                    <a href="./ctsp.html" class="l-3 m-3 c-4">
+                        <div class="best_seller-item">
+                            <img src="./assets/img/nike/8.jpg" >
+                            <h2 class="best_seller-item-name">Nike 01</h2>
+                            <p class="best_seller-item-price">2,990,000 VNĐ</p>
+                        </div>
+                    </a>
+                    <a href="./ctsp.html" class="l-3 m-3 c-4">
+                        <div class="best_seller-item">
+                            <img src="./assets/img/nike/9.jpg" >
+                            <h2 class="best_seller-item-name">Nike 01</h2>
+                            <p class="best_seller-item-price">2,990,000 VNĐ</p>
+                        </div>
+                    </a> -->
+                </div>
+                <div class="best_seller-page">
+                        <div class="best_seller-page-item"></div>
+                        <div class="best_seller-page-item"></div>
+                        <div class="best_seller-page-item"></div>
+                </div>
+            </div>
+
+            <div class="news grid">
+                <div class="product-heading">
+                    <h1 class="app-title">Có gì HOT</h1>
+                </div>
+                <div class="news-content">
+                    <div class="news__left m-6 l-6 c-6">
+                        <video src="./assets/video/Nike Ad gif.mp4" width="100%" height="100%" autoplay muted
+                            loop></video>
+                    </div>
+                    <div class="news__right m-6 l-6 c-6">
+                        <div class="news-note">
+                            <h1 class="style-title">Bộ sưu tập mới</h1>
+                            <p class="content-text">Dark mode enabled</p>
+                            <a href="./product.html" class="content__btn">Shop</a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="news-content">
+                    <div class="news__right m-6 l-6 c-6">
+                        <div class="news-note">
+                            <h1 class="style-title">Thân thiện với môi trường</h1>
+                            <p class="content-text">Làm từ sợi dệt chứa 50% chất liệu Parley Ocean Plastic</p>
+                            <a href="./product.html" class="content__btn">Shop</a>
+                        </div>
+                    </div>
+                    <div class="news__left m-6 l-6 c-6">
+                        <img src="./assets/img/new.jpg" width="100%">
+                    </div>
+                </div>
+
+            </div>
+            <div class="ages grid">
+                <div class="product-heading">
+                    <h1 class="app-title">WHO ARE YOU SHOPPING FOR?</h1>
+                </div>
+                <div class="ages-content">
+                    <div class="ages-content-item l-4 m-4 c-6">
+                        <img src="./assets/img/men.jpg">
+                        <a href="./product.html" class="content__btn">Men's</a>
+                    </div>
+                    <div class="ages-content-item l-4 m-4 c-6">
+                        <img src="./assets/img/women.jpg">
+                        <a href="./product.html" class="content__btn">Women's</a>
+                    </div>
+                    <div class="ages-content-item l-4 m-4 c-6 c-o-3">
+                        <img src="./assets/img/kid.jpg">
+                        <a href="./product.html" class="content__btn">Kid's</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer grid">
+            <div class="footer__content grid wide">
+                <div class="footer__content-item l-3 c-3 m-3">
+                    <h2 class="footer__heading">Chính sách</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__item-link">Chính sách giao hàng</a></li>
+                        <li class="footer__item"><a href="#" class="footer__item-link">Chính sách đổi trả</a></li>
+                        <li class="footer__item"><a href="#" class="footer__item-link">Chính sách thanh toán</a></li>
+                        <li class="footer__item"><a href="#" class="footer__item-link">Hướng dẫn mua hàng</a></li>
+                    </ul>
+                </div>
+                <div class="footer__content-item l-3 c-3 m-3">
+                    <h2 class="footer__heading">Về VieShop</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__item-link">Giới thiệu</a></li>
+                        <li class="footer__item"><a href="#" class="footer__item-link">Tuyển dụng</a></li>
+                    </ul>
+                </div>
+                <div class="footer__content-item l-3 c-3 m-3">
+                    <h2 class="footer__heading">Theo dõi</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="https://www.facebook.com/profile.php?id=100026940495915"
+                                class="footer__item-link">
+                                <i class="footer__item-icon fa-brands fa-facebook"></i> Facebook
+                            </a></li>
+                        <li class="footer__item"><a href="https://www.instagram.com/viet.83/" class="footer__item-link">
+                                <i class="footer__item-icon fa-brands fa-instagram"></i> Instagram
+                            </a></li>
+                        <li class="footer__item"><a href="https://www.tiktok.com/@__v.i.e.t__?lang=vi-VN"
+                                class="footer__item-link">
+                                <i class="footer__item-icon fa-brands fa-tiktok"></i> Tiktok
+                            </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content-item l-3 c-3 m-3">
+                    <h2 class="footer__heading">Liên Hệ</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <i class="footer__item-icon fa-solid fa-location-dot"></i> Hà Cầu, Hà Đông, Hà Nội
+                        </li>
+                        <li class="footer__item">
+                            <i class="footer__item-icon fa-solid fa-envelope"></i> Gmail
+                        </li>
+                        <li class="footer__item">
+                            <i class="footer__item-icon fa-solid fa-phone"></i> 123456
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    var img = document.querySelectorAll('.slider__container img');
+    console.log(img);
+    var i = 0;
+    function showSlide() {
+        img.forEach(function myfunction(image) {
+            image.style.display = "none";
+        })
+        img[i].style.display = "block";
+        i++;
+        if (i == img.length) {
+            i = 0;
+        }
+        setTimeout(showSlide, 2000);
+        Animation
+    }
+    showSlide();
+</script>
+
+</html>

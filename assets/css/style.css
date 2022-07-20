@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+
+/* Header */
+.header{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    height: 86px;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+
+.header a{
+    color: #fff;
+}
+
+.header__navbar{
+    display: flex;
+}
+
+.header__navbar-list{
+    display: flex;
+}
+
+.navbar-list__ketnoi-item{
+    margin-left: 4px;
+}
+
+.menu{
+    display: none;
+}
+
+.header__navbar-item{
+    margin: 8px 8px;
+}
+
+.header-with-search{
+    flex: 1;
+    width: 100%;
+    margin: 36px 12px 0 12px;
+    display: flex;
+}
+
+.header__cart i{
+    font-size: 24px;
+    margin-left: 32px;
+}
+
+.header__search{
+    border: 1px solid #fff;
+    width: 100%;
+    background-color: #fff;
+    height: 42px;
+    margin-top: -8px;
+    border-radius: 12px;
+    display: flex;
+}
+
+.header__search-input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    padding-left: 8px;
+    outline: none;
+}
+
+.header__search-btn{
+    float: right;
+    margin-top: 2px;
+    margin-right: 2px;
+    border: none;
+    background-color: red;
+    border-radius: 12px;
+    width: 62px;
+    height: 36px;
+    opacity: 0.9;
+}
+
+.header__search i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.header__search-btn:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Slider */
+.slider{
+    margin-top: 86px;
+}
+
+.slider__container img{
+    width: 100%;
+    height: 550px;
+    animation-duration: 1s;
+}
+
+.slider__banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+}
+
+.banner-item{
+    padding: 18px;
+    text-align: center;
+    flex: 1;
+}
+
+.item-icon i{
+    font-size: 42px;
+}
+
+.item-name{
+    font-size: 24px;
+    margin: 8px 0;
+}
+
+.item-slogan{
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+/* Content */
+
+/* New Product */
+.product-heading{
+    margin-top: 86px;
+    margin-bottom: 38px;
+}
+
+
+.app-title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.intro_new_product-item{
+    margin-bottom: 48px;
+}
+
+.intro_new_product-content{
+    text-align: center;
+}
+
+.content-title{
+    font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    font-size: 72px;
+}
+
+.content-text{
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+.content__btn{
+    background-color: #000;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.content__btn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* Style */
+.style__left img{
+    width: 100%;
+}
+.style-content{
+    display: flex;
+}
+
+.style__right-img{
+    display: flex;
+}
+
+.style-text{
+    height: 40%;
+    text-align: center;
+}
+
+.style-title{
+    font-size: 32px;
+    padding-top: 32px;
+}
+
+.style-note{
+    padding-top: 12px;
+}
+
+.style__right-img{
+    height: 60%;
+}
+
+.img-right,
+.img-left{
+    height: 100%;
+}
+
+/* New */
+.news-content{
+    display: flex;
+}
+
+.news__right{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.news-note{
+    width: 100%;
+    text-align: center;
+}
+
+/* Best Seller */
+.best_seller-product{
+    display: flex;
+}
+
+.best_seller-item{
+    padding: 12px;
+}
+
+.best_seller-product img{
+    width: 100%;
+}
+
+.best_seller-item-name{
+    font-weight: 300;
+    font-size: 16px;
+    opacity: 0.8;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.best_seller-page{
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.best_seller-page-item{
+    width: 24px;
+    height: 4px;
+    background-color: #000;
+    margin: 4px;
+    opacity: 0.2;
+}
+
+.best_seller-page-item:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Ages */
+.ages-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ages-content-item img{
+    width: 100%;
+    padding: 0 8px;
+    flex-wrap: wrap ;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+
+
+.ages-content-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+}
+
+/* Footer */
+.footer{
+    background-color: #ddd;
+    margin-top: 72px;
+}
+
+.footer__content{
+    display: flex;
+    padding: 32px 0;
+}
+
+.footer__heading{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.footer__item{
+    margin-bottom: 8px;
+}
+
+.footer__item i{
+    margin-right: 4px;
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/signUp.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="changePage c-0">
+            <div class="login">
+                <h2 class="question">Bạn đã có tài khoản?</h2>
+                <button class="Login_link SignUp_link">Đăng Nhập</button>
+            </div>
+            <div class="register">
+                <h2 class="question">Bạn chưa có tài khoản?</h2>
+                <button class="Register_link SignUp_link">Đăng Kí</button>
+            </div>
+        </div>
+        <form class="Register_form" id="form-1">
+            <div class="image">
+                <img src="./assets/img/signUp.png" alt="">
+            </div>
+            <h2 class="RegisterText">Đăng Kí</h2>
+            <div class="form-element">
+                <input type="text" id="username" class="input_form" placeholder="Tên Đăng Nhập *">
+                <span class="message"></span>
+            </div>
+            <div class="form-element">
+                <input type="password" id="password" class="input_form" placeholder="Mật khẩu *">
+                <span class="message"></span>
+            </div>
+            <div class="form-element">
+                <input type="text" id="name" class="input_form" placeholder="Họ và Tên *">
+                <span class="message"></span>
+            </div>
+            <div class="form-element">
+                <input type="text" id="mail" class="input_form" placeholder="Email *">
+                <span class="message"></span>
+            </div>
+            <div class="form-element">
+                <input type="text" id="phone" class="input_form" placeholder="Số Điện Thoại *">
+                <span class="message"></span>
+            </div>
+            <p class="dnhap link l-0 m-0">Đăng nhập</p>
+            <div class="btn">
+                <a href="./index.html" class="subBtn">Thoát</a>
+                <button type="submit" class="dkiSubBtn subBtn">Đăng Kí</button>
+            </div>
+        </form>
+        <form class="Login_form" id="form-2">
+            <div class="image">
+                <img src="./assets/img/signUp.png" alt="">
+            </div>
+            <h2 class="LoginText">Đăng Nhập</h2>
+            <div class="form-element">
+                <input type="text" id="username" class="input_form" placeholder="Tên Đăng Nhập">
+                <span class="message"></span>
+            </div>
+            <div class="form-element">
+                <input type="text" id="password" class="input_form" placeholder="Mật Khẩu">
+                <span class="message"></span>
+            </div>
+            <p class="dki link l-0 m-0">Đăng kí</p>
+            <a href="#" class="link">Quên mật khẩu?</a>
+            <div class="btn">
+                <a href="./index.html" class="subBtn">Thoát</a>
+                <button type="submit" class="dnhapSubBtn subBtn">Đăng Nhập</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="./assets/js/signUp.js"></script>
+<script>
+    Validator({
+        form:'#form-1',
+        rules: [
+            Validator.isRequired('#username'),
+            Validator.isRequired('#phone'),
+            Validator.isRequired('#name'),
+            Validator.isEmail('#mail'),
+            Validator.isPass('#password')
+        ]
+    });
+</script>
+</html>
